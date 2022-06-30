@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      body {
+        background-color: aqua;
+        padding: 5%;
+      }
+      img {
+        width: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="https://www.google.com.br/">click</a>
+    <a href="#ptest">click 2</a>
+
+    <img src="https://devinhouse.tech/wp-content/uploads/sites/2/2021/12/logo-dev-in-01.png" alt="logo devInHouse" />
+    <img
+      style="width: 300px"
+      src="https://devinhouse.tech/wp-content/uploads/sites/2/2021/12/logo-dev-in-01.png"
+      alt="logo devInHouse"
+    />
+
+    <form method="post" action="">
+      <fieldset>
+        <legend>Dados básicos</legend>
+        <label>Nome:</label>
+        <input id="nome" placeholder="Digite seu nome" />
+
+        <label>e-mail:</label>
+        <input required id="email" type="email" />
+
+        <label>numero:</label>
+        <input id="numero" type="number" />
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <table style="border: 1px solid">
+      <thead>
+        <tr style="border: 1px solid">
+          <th style="border: 1px solid">Nome</th>
+          <th style="border: 1px solid">e-mail</th>
+          <th style="border: 1px solid">telefone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border: 1px solid">
+          <td rowspan="2" style="border: 1px solid">teste</td>
+          <td style="border: 1px solid">Teste@teste.com</td>
+          <td style="border: 1px solid">Teste@teste.com</td>
+        </tr>
+        <tr style="border: 1px solid">
+          <td style="border: 1px solid" colspan="2">Seprador</td>
+        </tr>
+
+        <tr style="border: 1px solid">
+          <td style="border: 1px solid">Teste2</td>
+          <td style="border: 1px solid">Teste2@teste.com</td>
+          <td style="border: 1px solid">Teste2@teste.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-bottom: 100vh"></div>
+    <p id="ptest">teste</p>
+  </body>
+</html>
